@@ -9,7 +9,7 @@ The script has a ComputerName parameter which allows it to be executed against m
 
 This script should be able to dump credentials from any version of Windows through Windows 8.1 that has PowerShell v2 or higher installed.
 
-Function: Invoke-Mimikatz
+Function: Invoke-Mimikatzasd
 Author: Joe Bialek, Twitter: @JosephBialek
 Mimikatz Author: Benjamin DELPY `gentilkiwi`. Blog: http://blog.gentilkiwi.com. Email: benjamin@gentilkiwi.com. Twitter @gentilkiwi
 License:  http://creativecommons.org/licenses/by/3.0/fr/
