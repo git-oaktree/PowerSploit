@@ -2711,7 +2711,7 @@ Function Main
 		
     elseif ($PsCmdlet.ParameterSetName -ieq "DumpCerts")
     {
-        $ExeArgs = "crypto::cng crypto::capi `"crypto::certificates /export`" `"crypto::certificates /export /systemstore:CERT_SYSTEM_STORE_LOCAL_MACHINE`" exit"
+       $ExeArgs = "crypto::cng crypto::capi `"crypto::certificates /export`" `"crypto::certificates /export /systemstore:CERT_SYSTEM_STORE_LOCAL_MACHINE`" exit"
     }
     else
     {
